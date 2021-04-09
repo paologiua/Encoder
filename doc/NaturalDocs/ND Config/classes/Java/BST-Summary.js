@@ -1,0 +1,1 @@
+NDFramePage.OnPageTitleLoaded("JavaClass:BST","BST");NDSummary.OnSummaryLoaded("JavaClass:BST",[["Java","Java"]],[["Classes","Class"],["Functions","Function"],["Groups","Group"]],[[25,0,0,"BST"],[26,0,2,"Functions","Functions"],[27,0,1,"BST","BST"],[28,0,1,"inserisci","inserisci"],[29,0,1,"ricerca","ricerca"]]);

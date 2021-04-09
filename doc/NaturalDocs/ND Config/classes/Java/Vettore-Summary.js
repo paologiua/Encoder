@@ -1,0 +1,1 @@
+NDFramePage.OnPageTitleLoaded("JavaClass:Vettore","Vettore");NDSummary.OnSummaryLoaded("JavaClass:Vettore",[["Java","Java"]],[["Classes","Class"],["Functions","Function"],["Groups","Group"]],[[20,0,0,"Vettore"],[21,0,2,"Functions","Functions"],[22,0,1,"Vettore","Vettore"],[23,0,1,"aumentaGrandezza","aumentaGrandezza"],[24,0,1,"inserisci","inserisci"]]);
