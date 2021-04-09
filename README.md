@@ -65,9 +65,11 @@ The description of the software structure can be found [here](https://www.dmi.un
 From the hardware point of view, Encoder does not require any particular specifications. The question changes from a software point of view as Encoder is a program written in Java language. For this reason it needs external tools for both compilation and execution on each of the major operating platforms (Linux, Microsoft Windows and MacOs).
 
 ### Compilation and execution
-After unpacking the distribution, to compile the sources or run the program, you need to download and install the Java SE Development Kit, regardless of the operating system. Downloads and other documentation are available [here](https://www.oracle.com/technetwork/java/javase/downloads/jdk11-downloads-5066655.html). On Linux (Debian based), alternatively, you can simply run the command "sudo apt-get install openjdk-11-jre" from the terminal. To compile, you need to open the encoder10\src\frame1 folder of the distribution from the terminal and execute the command "javac \*.java". Encoder doesn't need to be installed, it just needs to be run. 
+After unpacking the distribution, to compile the sources or run the program, you need to download and install the Java SE Development Kit. Downloads and other documentation are available [here](https://www.oracle.com/technetwork/java/javase/downloads/jdk11-downloads-5066655.html). On Linux (Debian based), alternatively, you can simply run the command "sudo apt-get install openjdk-11-jre" from the terminal. To compile, you need to open the encoder10\src\frame1 folder of the distribution from the terminal and execute the command "javac \*.java". Encoder doesn't need to be installed, it just needs to be run. 
 
 You can run Encoder in 2 ways:
 
-- You can use the Encoder.jar executable file, located in the encoder10\bin folder of the distribution. On Windows just double left click, while on Linux or MacOs from the terminal you need to go to the path where the JAR file is and use the command "java -jar Encoder.jar";
+- You can use the Encoder.jar executable file, located in the encoder10\bin folder of the distribution. On Windows just double left click, while on Linux or MacOs from the terminal you need to go to the path where the JAR file is located and use the command "java -jar Encoder.jar";
 - Or, by opening the terminal in the encoder10\bin folder, the command "java -classpath. Frame1.Interface" can be used.
+
+# [official website](https://www.dmi.unict.it/archelab/projects/encoder/index-en.html)
