@@ -27,3 +27,5 @@ Its operation is divided into 3 steps:
 - First of all, press the "Open" button (on the right), in order to start the file manager, through which you can choose the file that most interests you to compress or decompress;
 - Then select between three possible modes: RunLength encoding, LZW encoding, decoding;
 - Finally press the start button (called "coding" or "decoding") and wait for the upload to finish. When finished, the destination directory will appear on the screen.
+
+[usage](#usage)
