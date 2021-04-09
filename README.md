@@ -72,4 +72,5 @@ You can run Encoder in 2 ways:
 - You can use the Encoder.jar executable file, located in the encoder10\bin folder of the distribution. On Windows just double left click, while on Linux or MacOs from the terminal you need to go to the path where the JAR file is located and use the command "java -jar Encoder.jar";
 - Or, by opening the terminal in the encoder10\bin folder, the command "java -classpath. Frame1.Interface" can be used.
 
+# For more information
 *[Official website](https://www.dmi.unict.it/archelab/projects/encoder/index-en.html)*
