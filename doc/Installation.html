@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="it">
+	<head>
+		<link rel="icon" href="./html/icon/icon.ico">
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>Note per gli sviluppatori. Encoder, versione 1.0</title>
+		
+		<style>
+			.header {
+				font-family: 'Ubuntu', sans-serif;
+				text-align: center;
+			}
+			.sectionHeader {
+				font-family: 'Ubuntu', sans-serif;
+				margin-left: 30px;
+			}
+			p {
+				font-family: 'Ubuntu', sans-serif;
+				margin: 0px 30px;
+			}
+			.subsectionHeader {
+				font-family: 'Ubuntu', sans-serif;
+				margin-left: 40px;
+			}
+			li {
+				font-family: 'Ubuntu', sans-serif;
+				margin-left: 30px;
+			}
+			a {
+				font-family: 'Ubuntu', sans-serif;
+				color:blue;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="header">Note di installazione<br>Encoder v1.0</h1>
+		<h3 class="sectionHeader">Requisiti di sistema</h3>
+		<p>Dal punto di vista hardware, Encoder non necessita di specifiche particolari. La questione cambia dal punto di vista software 
+			in quanto Encoder è un programma scritto in linguaggio Java. Per questo motivo ha bisogno di strumenti esterni 
+			sia per la compilazione che per l'esecuzione in ciascune delle principali piattaforme operative (Linux, Microsoft Windows e MacOs).
+		</p>
+		<h3 class="sectionHeader">Compilazione ed esecuzione</h3>
+		<p>Dopo avere spacchettato la distribuzione, per compilare i sorgenti o eseguire il programma occorre scaricare ed installare Java SE Development Kit, indipendentemente dal sistema operativo. 
+			Download e altre documentazioni sono disponibili  
+			<a href="https://www.oracle.com/technetwork/java/javase/downloads/jdk11-downloads-5066655.html">qui</a>. 
+			Su Linux (base Debian), in alternativa, è possibile semplicemente eseguire da terminale il comando "sudo apt-get install openjdk-11-jre".
+			Per la compilazione, bisogna aprire da terminale la cartella encoder10\src\frame1 della distribuzione ed eseguire il comando "javac *.java".
+			Encoder non ha bisogno di installazione, ma va semplicemente eseguito. Per la sua esecuzione si possono intraprendere due strade:
+		</p>
+		<ol>
+			<li>Si può utilizzare il file eseguibile Encoder.jar, posizionato nella cartella encoder10\bin della distribuzione. Su Windows basta fare un doppio click sinistro, 
+				mentre su Linux o MacOs da terminale occorre posizionarsi nel percorso dove si trova il file JAR ed usare il comando "java -jar Encoder.jar";</li>
+			<li>Oppure, aprendo il terminale nella cartella encoder10\bin, può essere usato il comando "java -classpath . frame1.Interfaccia".</li>
+		</ol>
+		
+
+</body></html>

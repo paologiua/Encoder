@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="it">
+	<head>
+		<link rel="icon" href="./html/icon/icon.ico">
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>Guida utente Encoder, versione 1.0</title>
+		
+		<style>
+			.header {
+				font-family: 'Ubuntu', sans-serif;
+				text-align: center;
+			}
+			.sectionHeader {
+				font-family: 'Ubuntu', sans-serif;
+				margin-left: 30px;
+			}
+			p {
+				font-family: 'Ubuntu', sans-serif;
+				margin: 0px 30px;
+			}
+			.screen {
+				width: 600px;
+				margin-left: 30px;
+			}
+            .screen2 {
+				width: 1024px;
+				margin-left: 30px;
+			}
+			.subsectionHeader {
+				font-family: 'Ubuntu', sans-serif;
+				margin-left: 40px;
+			}
+			li {
+				font-family: 'Ubuntu', sans-serif;
+				margin-left: 30px;
+			}
+			a {
+				font-family: 'Ubuntu', sans-serif;
+				color: blue;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="header">Guida dell'utente<br>Encoder v1.0</h1>
+		<h3 id="intro" class="sectionHeader">Introduzione</h3>
+        <p><em>Encoder</em> è un programma in Java per la codifica dei dati e la loro decodifica senza perdita di informazione. In particolare è possibile:</p>
+				<ul style="list-style-type: circle;">
+					<li>Codificare un file tramite l'algoritmo di codifica Run Length (ottimizzato con bandiera);</li>
+					<li>Codificare un file tramite l'algoritmo di codifica LZW (Lempel-Ziv-Welch);</li>
+					<li>Decomprimere un file compresso in precedenza tramite la funzione di decompressione di uno dei due algoritmi (in automatico verrà scelto quello adatto).</li>
+				</ul>
+
+					<p>Per ulteriori informazioni consultare il file <a href="ReleaseNotes.html">Note di rilascio</a>.</p>
+		<h3 id="interface" class="sectionHeader">Utilizzo</h3>
+		<p>È possibile eseguire il programma:</p>
+		<ul style="list-style-type: circle;">
+			<li>Avviando il file JAR eseguibile;</li>
+			<li>Oppure compilando ed eseguendo il codice da terminale o da un qualsiasi IDE compatibile con Java.</li>
+		</ul>
+		<p>Per una guida maggiormente dettagliata consultare <a href="Installation.html">Note di installazione</a>.</p>
+		<h4 id="circuit" class="sectionHeader">Funzionamento del programma</h4>
+		<p>Il suo funzionamento si divide in 3 passi:</p>
+        <ol>
+			<li>Per prima cosa premere sul pulsante "Apri" (sulla destra), così da avviare il gestore file, tramite il quale è possibile scegliere il file che più interessa comprimere o decomprimere;</li>
+			<li>Poi selezionare fra tre possibili modalità: RunLength encoding, LZW encoding, decoding;</li>
+			<li>Infine premere sul pulsante di avvio (denominato "coding" o "decoding") e attendere la fine del caricamento. Al termine, la directory di destinazione apparirà sullo schermo.</li>
+		</ol>
+
+	</body></html>

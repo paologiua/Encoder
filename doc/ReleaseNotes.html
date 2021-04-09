@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="it">
+	<head>
+		<link rel="icon" href="./html/icon/icon.ico">
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>Note di rilascio. Encoder, versione 1.0</title>
+		
+		<style>
+			.header {
+				font-family: 'Ubuntu', sans-serif;
+				text-align: center;
+			}
+			.sectionHeader {
+				font-family: 'Ubuntu', sans-serif;
+				margin-left: 30px;
+			}
+			p {
+				font-family: 'Ubuntu', sans-serif;
+				margin: 0px 30px;
+			}
+			.screen {
+				width: 600px;
+				margin-left: 30px;
+			}
+            .screen2 {
+				width: 1024px;
+				margin-left: 30px;
+			}
+			.subsectionHeader {
+				font-family: 'Ubuntu', sans-serif;
+				margin-left: 40px;
+			}
+			li {
+				font-family: 'Ubuntu', sans-serif;
+				margin-left: 30px;
+			}
+			a {
+				font-family: 'Ubuntu', sans-serif;
+				color: blue;
+			}
+		</style>
+	</head>
+	<body>
+			<h1 class="header">Note di rilascio<br>Encoder v1.0</h1>
+			<h3 class="sectionHeader">Tecniche di programmazione</h3>
+			<p>Encoder è interamente scritto in linguaggio Java. Per la parte grafica, sfrutta la libreria grafica Java Swing.
+				Il codice implementa le funzioni di codifica e decodifica degli algoritmi di compressione senza perdita 
+				RunLength (con flag) e LZW (dagli ideatori Lempel-Ziv-Welch). 
+				<ul></ul><p>L'algoritmo di codifica RLE (Run-Length encoding) cerca nei dati da comprimere una serie di almeno 4 elementi uguali (in un'immagine bitmap, 
+				ad esempio, si ottengono queste condizioni in sezioni di colore uniforme dell'immagine), e la sostituisce con tre elementi: un carattere speciale (detto flag), che indica l'inizio di una serie codificata, 
+				l'elemento di cui è composta la serie e infine il numero di volte che esso si ripete. Questo algoritmo funziona bene per dati che abbiano molte ripetizioni al loro interno. Il problema è che anche il flag è un 
+				possibile elemento del dato e deve quindi essere codificato, di volta in volta, anche se preso singolarmente. Questo può portare ad ottenere file codificati che occupano più memoria del file originale. Per limitare
+				che ciò si verifichi, prima di iniziare
+				 la codifica, la funzione "flagConveniente" assegna alla variabile flag il valore dell'elemento con meno apparizioni. Se la dimensione del file è maggiore o uguale a 10000, per evitare rallentamenti, la funzione lavorerà su 10000 elementi presi a campione. </p>
+				<p>L'algoritmo di decodifica RLE, ogni volta 
+				che trova la terna (flag, a, n), la sostituisce con una serie di n elementi a.</p><ul></ul>
+				<ul></ul><p>L'algoritmo di codifica LZW si fonda sul fatto che una sequenza di elementi contiene al suo interno sottosequenze ripetute. Per sfruttare questo fatto viene creato un dizionario, il quale 
+					inizialmente presenta tutti i singoli possibili elementi che possano apparire nella sequenza (alfabeto). Ogni qual volta l'algoritmo trova sottosequenze mai apparse prima,
+					 le aggiunge al dizionario e gli assegna un indice. Trovare una sottosequenza mai apparsa prima, indica che la stessa sottosequenza, tolto l'ultimo elemento, si trova nel dizionario e viene 
+					 perciò sostituita dal suo indice identificativo. Per velocizzare le numerose ricerche, nella fase di codifica, il dizionario è costruito tramite un albero binario di ricerca modificato, in 
+					 modo da essere, fin dall'inizio, composto dagli elementi dell'alfabeto e in modo da facilitare l'estrazione degli indici. Per la decompressione inizialmente il dizionario è composto solo dagli elementi dell'alfabeto. Ad ogni iterazione, l'algoritmo legge un indice e lo sostituisce con la sequenza equivalente. Inoltre aggiunge al dizionario quest'ultima sequenza 
+					 concatenata a quella corrispondente all'indice successivo. C'è un caso però, in cui il simbolo successivo non è presente nel dizionario. Solitamente questo accade in input dalla forma abababab e, in particolare, 
+					 quando la sottosequenza inizia e finisce con lo stesso carattere. Quindi, per affrontare questa eccezione, bisogna semplicemente prendere l'ultima sottosequenza ottenuta e concatenarla
+					 con il suo primo elemento, invece di seguire la normale procedura.</p>
+					 <p>Nella funzione di decodifica, non dovendo più fare ricerche, il dizionario è stato implementato tramite un vettore, il quale ha 
+					 una funzione di inserimento più efficiente e capienza variabile.</p>
+					 <p>Siccome il tipo int ha un range limitato, per poter elaborare file di grandi dimensioni, è stato necessario fissare una capienza massima del dizionario. Quando tale limite viene raggiunto, il dizionario 
+						 viene svuotato e l'algoritmo LZW riparte dal suo stato iniziale, proseguendo dal punto del file dove era stato interrotto.
+					 </p>
+			
+			<h3 class="sectionHeader">Collaudi</h3>
+			<p>Sono stati svolti vari collaudi su Linux (in particolare Ubuntu 18.10) e Windows ed in entrambi i casi il programma pare non presentare problemi.
+			</p>
+
+			<h3 class="sectionHeader">Idee per ulteriori sviluppi</h3>
+			<ul>
+				<li>Introdurre ulteriori algoritmi di compressione.</li>
+				<li>Aggiungere la possibilità di scegliere in automatico l'algoritmo di codifica in base ad un'analisi del file di input.</li>
+			</ul>
+
+			<h3 class="sectionHeader">Architettura del software</h3>
+			<p>La descrizione della struttura del software si può trovare
+				<a href="NaturalDocs/ND%20Config/index.html">qui</a>.
+			</p>
+	
+
+</body></html>
