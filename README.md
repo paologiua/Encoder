@@ -50,10 +50,11 @@ Since the int type has a limited range, in order to process large files, it was 
 ### Testing
 Various tests have been carried out on Linux (in particular Ubuntu 18.10) and Windows and in both cases the program does not seem to present problems.
 
-### Ideas for further development
+### Ideas for future developments
 - Introduce additional compression algorithms.
 - Add the possibility to automatically choose the encoding algorithm based on an analysis of the input file.
-- Software architecture
+
+### Software architecture
 The description of the software structure can be found [here](https://www.dmi.unict.it/archelab/projects/encoder/doc/NaturalDocs/ND%20Config/index.html).
 
 # Installation notes
