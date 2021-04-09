@@ -75,4 +75,4 @@ You can run Encoder in 2 ways:
 # Useful links
 *[Official website](https://www.dmi.unict.it/archelab/projects/encoder/index-en.html)*
 
-**This work is the result of a university project carried out for the course "Architecture of the Computers"**
+*This work is the result of a university project carried out for the course "Architecture of the Computers".*
