@@ -7,8 +7,8 @@ Encoder is a Java program for data encoding and decoding without loss of informa
 
 In particular, it is possible:
 
-- Encode a file using the Run Length encoding algorithm (optimized with flag);
-- Encode a file using the LZW (Lempel-Ziv-Welch) encoding algorithm;
+- Encode a file using the **Run Length encoding algorithm (optimized with flag)**;
+- Encode a file using the **LZW (Lempel-Ziv-Welch) encoding algorithm**;
 - Unzip a previously compressed file using the decompression function of one of the two algorithms (it will be chosen automatically).
 
 For more information, see [Release Notes](#release-notes).
@@ -41,7 +41,7 @@ This algorithm works well for data that has a lot of repetitions in it. The prob
 The RLE decoding algorithm, every time it finds the triad (flag, a, n), replaces it with a series of n elements a.
 
 #### LZW coding
-The LZW encoding algorithm uses repeated subsequences within a sequence of elements for compression. A dictionary is created, which initially presents all the individual possible elements that may appear in the sequence (alphabet). Whenever the algorithm finds a subsequence that has never appeared before, it adds it to the dictionary and assigns it an index. Finding a subsequence that has never appeared before (e.g. *ax*) indicates that the same subsequence without the last element (*a*) is in the dictionary and is therefore replaced by its index. To speed up the numerous searches, in the coding phase, the dictionary is a binary search tree, so as to facilitate the extraction of the indexes. The dictionary is already composed of the elements of the alphabet when it is created.
+The LZW encoding algorithm uses repeated subsequences within a sequence of elements for compression. A dictionary is created, which initially presents all the individual possible elements that may appear in the sequence (alphabet). Whenever the algorithm finds a subsequence that has never appeared before, it adds it to the dictionary and assigns it an index. Finding a subsequence that has never appeared before (e.g. **ax**) indicates that the same subsequence without the last element (**a**) is in the dictionary and is therefore replaced by its index. To speed up the numerous searches, in the coding phase, the dictionary is a binary search tree, so as to facilitate the extraction of the indexes. The dictionary is already composed of the elements of the alphabet when it is created.
 
 For decompression, the dictionary is initially composed only of the elements of the alphabet. At each iteration, the algorithm reads an index and replaces it with the equivalent sequence. It also adds to the dictionary the concatenation of this sequence with the one corresponding to the next index. There is a case, however, where the next symbol is not present in the dictionary. Usually this happens in input from the form abababab and, in particular, when the subsequence begins and ends with the same character. In this case you simply have to take the last subsequence obtained and concatenate it with its first element, instead of following the normal procedure.
 
