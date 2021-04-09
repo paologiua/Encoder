@@ -1,0 +1,1 @@
+NDMenu.OnSectionLoaded("files.js",[[1,"BST.java"],[1,"Interfaccia.java"],[1,"LZW.java"],[1,"Navigatore.java"],[1,"Nodo.java"],[1,"RLE.java"],[1,"Vettore.java"]]);

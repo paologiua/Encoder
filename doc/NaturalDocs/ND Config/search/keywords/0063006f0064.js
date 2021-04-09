@@ -1,0 +1,1 @@
+NDSearch.OnPrefixDataLoaded("cod",["Function"],[["code",,[["LZW",,,,0,"File:LZW.java:LZW.code","JavaClass:LZW:code"],["RLE",,,,0,"File:RLE.java:RLE.code","JavaClass:RLE:code"]]]]);

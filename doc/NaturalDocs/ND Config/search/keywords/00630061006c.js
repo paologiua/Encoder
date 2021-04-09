@@ -1,0 +1,1 @@
+NDSearch.OnPrefixDataLoaded("cal",["Function"],[["calcolaLunghezzaTipo",,[["Interfaccia",,,,0,"File:Interfaccia.java:Interfaccia.calcolaLunghezzaTipo","JavaClass:Interfaccia:calcolaLunghezzaTipo"]]]]);

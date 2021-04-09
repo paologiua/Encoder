@@ -1,0 +1,1 @@
+NDSearch.OnPrefixDataLoaded("com",["Function"],[["comprimiFormato",,[["Interfaccia",,,,0,"File:Interfaccia.java:Interfaccia.comprimiFormato","JavaClass:Interfaccia:comprimiFormato"]]]]);

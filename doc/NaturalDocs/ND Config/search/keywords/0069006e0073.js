@@ -1,0 +1,1 @@
+NDSearch.OnPrefixDataLoaded("ins",["Function"],[["inserisci",,[["BST",,,,0,"File:BST.java:BST.inserisci","JavaClass:BST:inserisci"],["Vettore",,,,0,"File:Vettore.java:Vettore.inserisci","JavaClass:Vettore:inserisci"]]]]);

@@ -1,0 +1,1 @@
+NDFramePage.OnPageTitleLoaded("File:Navigatore.java","Navigatore.java");NDSummary.OnSummaryLoaded("File:Navigatore.java",[["Java","Java"]],[["Classes","Class"],["Functions","Function"],["Groups","Group"]],[[4,0,0,"Navigatore","Navigatore"],[5,0,2,"Functions","Navigatore.Functions"],[6,0,1,"naviga","Navigatore.naviga"]]);

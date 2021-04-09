@@ -1,0 +1,1 @@
+NDSearch.OnPrefixDataLoaded("ibi",["Function"],[["iBitInverse",,[["LZW",,,,0,"File:LZW.java:LZW.iBitInverse","JavaClass:LZW:iBitInverse"]]]]);

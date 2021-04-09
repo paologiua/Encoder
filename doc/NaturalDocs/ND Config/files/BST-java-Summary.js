@@ -1,0 +1,1 @@
+NDFramePage.OnPageTitleLoaded("File:BST.java","BST.java");NDSummary.OnSummaryLoaded("File:BST.java",[["Java","Java"]],[["Classes","Class"],["Functions","Function"],["Groups","Group"]],[[25,0,0,"BST","BST"],[26,0,2,"Functions","BST.Functions"],[27,0,1,"BST","BST.BST"],[28,0,1,"inserisci","BST.inserisci"],[29,0,1,"ricerca","BST.ricerca"]]);

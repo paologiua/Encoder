@@ -1,0 +1,1 @@
+NDSearch.OnPrefixDataLoaded("int",["Class"],[["Interfaccia",,[[,,,,0,"File:Interfaccia.java:Interfaccia","JavaClass:Interfaccia"]]]]);

@@ -1,0 +1,1 @@
+NDSearch.OnPrefixDataLoaded("nav",["Function","Class"],[["naviga",,[["Navigatore",,,,0,"File:Navigatore.java:Navigatore.naviga","JavaClass:Navigatore:naviga"]]],["Navigatore",,[[,,,,1,"File:Navigatore.java:Navigatore","JavaClass:Navigatore"]]]]);

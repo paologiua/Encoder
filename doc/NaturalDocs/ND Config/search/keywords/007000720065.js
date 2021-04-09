@@ -1,0 +1,1 @@
+NDSearch.OnPrefixDataLoaded("pre",["Function"],[["preparazione",,[["LZW",,,,0,"File:LZW.java:LZW.preparazione","JavaClass:LZW:preparazione"]]]]);

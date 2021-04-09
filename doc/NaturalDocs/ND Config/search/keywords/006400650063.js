@@ -1,0 +1,1 @@
+NDSearch.OnPrefixDataLoaded("dec",["Function"],[["decode",,[["LZW",,,,0,"File:LZW.java:LZW.decode","JavaClass:LZW:decode"],["RLE",,,,0,"File:RLE.java:RLE.decode","JavaClass:RLE:decode"]]],["decomprimiFormato",,[["Interfaccia",,,,0,"File:Interfaccia.java:Interfaccia.decomprimiFormato","JavaClass:Interfaccia:decomprimiFormato"]]]]);

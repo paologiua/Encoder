@@ -1,0 +1,1 @@
+NDSearch.OnPrefixDataLoaded("opz",["Function"],[["opzioneCodifica",,[["Interfaccia",,,,0,"File:Interfaccia.java:Interfaccia.opzioneCodifica","JavaClass:Interfaccia:opzioneCodifica"]]],["opzioneDecodifica",,[["Interfaccia",,,,0,"File:Interfaccia.java:Interfaccia.opzioneDecodifica","JavaClass:Interfaccia:opzioneDecodifica"]]]]);

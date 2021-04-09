@@ -1,0 +1,1 @@
+NDFramePage.OnPageTitleLoaded("File:Nodo.java","Nodo.java");NDSummary.OnSummaryLoaded("File:Nodo.java",[["Java","Java"]],[["Classes","Class"],["Functions","Function"],["Groups","Group"]],[[1,0,0,"Nodo","Nodo"],[2,0,2,"Functions","Nodo.Functions"],[3,0,1,"Nodo","Nodo.Nodo"]]);

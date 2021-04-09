@@ -1,0 +1,1 @@
+NDSearch.OnPrefixDataLoaded("ric",["Function"],[["ricerca",,[["BST",,,,0,"File:BST.java:BST.ricerca","JavaClass:BST:ricerca"]]]]);

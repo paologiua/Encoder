@@ -1,0 +1,1 @@
+NDSearch.OnPrefixDataLoaded("bst",["Class"],[["BST",,[[,,,,0,"File:BST.java:BST","JavaClass:BST"]]]]);

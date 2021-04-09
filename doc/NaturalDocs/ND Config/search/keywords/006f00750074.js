@@ -1,0 +1,1 @@
+NDSearch.OnPrefixDataLoaded("out",["Function"],[["output",,[["LZW",,,,0,"File:LZW.java:LZW.output","JavaClass:LZW:output"]]]]);

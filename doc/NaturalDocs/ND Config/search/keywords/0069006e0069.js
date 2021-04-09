@@ -1,0 +1,1 @@
+NDSearch.OnPrefixDataLoaded("ini",["Function"],[["initialize",,[["Interfaccia",,,,0,"File:Interfaccia.java:Interfaccia.initialize","JavaClass:Interfaccia:initialize"]]]]);

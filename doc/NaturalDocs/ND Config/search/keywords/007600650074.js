@@ -1,0 +1,1 @@
+NDSearch.OnPrefixDataLoaded("vet",["Class"],[["Vettore",,[[,,,,0,"File:Vettore.java:Vettore","JavaClass:Vettore"]]]]);
